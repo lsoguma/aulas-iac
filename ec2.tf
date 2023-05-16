@@ -25,9 +25,8 @@ variable "map_types" {
         }
 }
 
-resource "aws_instance" "
 resource "aws_instance" "minha-primeira-ec2" {
         ami = "ami-0889a44b331db0194"
         instance_type = var.list_types[1]
-#       instance_type = var.map_types["sa-east-1"]
+       #instance_type = var.map_types["sa-east-1"]
 }
