@@ -19,3 +19,9 @@ variable "check" {
 output "pais" {
         value = var.pais
 }
+output "idade" {
+        value = var.idade
+}
+output "check" {
+        value = var.check
+}
